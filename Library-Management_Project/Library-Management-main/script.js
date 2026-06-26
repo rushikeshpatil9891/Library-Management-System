@@ -16,7 +16,7 @@ function searchBook() {
     `;
 
     const books = JSON.parse(localStorage.getItem('books')) || [];
-    let found = false;
+   let found = false;
 
     books.forEach(book => {
         if (book.title.toLowerCase().includes(searchQuery) || book.author.toLowerCase().includes(searchQuery)) {
