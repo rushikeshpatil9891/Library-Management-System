@@ -6,7 +6,7 @@ function searchBook() {
     const searchQuery = document.getElementById('search').value.toLowerCase();
     const searchResults = document.getElementById('search-results');
     
-    searchResults.innerHTML = `
+  SearchResult.Innerhtml = `
         <tr>
             <th>Title</th>
             <th>Author</th>
