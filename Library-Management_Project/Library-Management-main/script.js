@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+document.AddEventListner('DOMContentLoaded', (event) => {
     document.getElementById('search-button').addEventListener('click', searchBook);
 });
 
